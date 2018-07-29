@@ -1,4 +1,5 @@
 import React from "react";
+import ProductsMenu from "./../generals/ProductsMenu";
 
 class Home extends React.Component {
 	componentDidMount(prevProps) {
@@ -6,8 +7,11 @@ class Home extends React.Component {
 	}
   	render() {
     	return (
-			<div data-aos="fade-up">
-				sdfdssdfdssddfsdfsdffsddsfsdfsdf
+			<div className="container">
+				<ProductsMenu />
+				<div data-aos="fade-up">
+					dfsfdsffsfs
+				</div>
 			</div>
     	);
   	}
