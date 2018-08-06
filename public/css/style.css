@@ -199,3 +199,148 @@ header *{
 .producto img{
 	width: 100%;
 }
+
+/**/
+	.container-collapse{
+		border-bottom: solid gray 1px;
+		margin-bottom: 7px;
+	}
+	.products-menu > div:last-child .container-collapse{
+		border-bottom: none;
+		margin: 0;
+	}
+	.expand-menu{
+		width: 100%;;
+	}
+	.icon-menu {
+		margin: 0px auto 0px auto;
+		border-radius: 30px;
+		width: 30px;
+		height: calc(100% - 6px);
+	}
+	.icon-plus{
+		width: 10px;
+		height: 10px;
+		position: absolute;
+		right: 0;
+		margin-top: 10px;
+		margin-right: 0px;
+	}
+	.icon-plus .active-path{
+		fill: white;
+	}
+	.icon {
+		width: 100%;
+	}
+	.products-menu{
+		display: inline-block;
+		/*width: 200px;*/
+		background-color: #9f9fa2;
+		border-radius: 10px;
+		padding: 3px;
+		color: white;
+	}
+	.products-menu .products-menu{
+		width: 100%;
+	}
+	.products-menu ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.title-menu{
+		position: relative;
+	}
+	.pl-title-menu{
+		padding-left: 5px;
+	}
+	.listProduct li{
+		background-color: gray;
+		border-radius: 5px;
+		padding: 2px 10px;
+		margin: 3px 0;
+		transition: all .5s;
+		cursor: pointer;
+	}
+	.listProduct li:hover{
+		background-color: #5a5a5a;
+	}
+	.listProduct .checkbox{
+		width: 20px;
+		height: 20px;
+		margin: 3px 10px 3px 0;
+	}
+
+	.icon-menu.sillas{
+		background-color: #a81d50;
+	}
+	.chairSVG.sillas .circle{
+		fill: #a81d50;
+	}
+	.chairSVG.sillas .sombra{
+		fill: #a81d50;
+	}
+	.chairSVG.sillas .estructura{
+		fill: white;
+	}
+
+	.icon-menu.design{
+		background-color: #b5d8b1;
+	}
+	.chairSVG.design .circle{
+		fill: #b5d8b1;
+	}
+	.chairSVG.design .sombra{
+		fill: #b5d8b1;
+	}
+	.chairSVG.design .estructura{
+		fill: white;
+	}
+
+	.icon-menu.inOut{
+		background-color: #9ad6f0;
+	}
+	.chairSVG.inOut .circle{
+		fill: #9ad6f0;
+	}
+	.chairSVG.inOut .sombra{
+		fill: #9ad6f0;
+	}
+	.chairSVG.inOut .estructura{
+		fill: white;
+	}
+
+	.icon-menu.community{
+		background-color: #cfcdcc;
+	}
+	.chairSVG.community .circle{
+		fill: #cfcdcc;
+	}
+	.chairSVG.community .sombra{
+		fill: #cfcdcc;
+	}
+	.chairSVG.community .estructura{
+		fill: white;
+	}
+/**/
+
+/* Global */
+	.hide{
+		display: none;
+	}
+	.cp {
+		cursor: pointer
+	}
+	.dp-inline-block{
+		display: inline-block;
+	}
+	.lh-1-9{
+		line-height: 1.9;
+	}
+	.pt-1{
+		padding-top: 1em;
+	}
+	.pl-1{
+		padding-left: 1em;
+	}
+/* Global*/

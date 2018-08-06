@@ -7,10 +7,9 @@ class Home extends React.Component {
 	}
   	render() {
     	return (
-			<div className="container">
-				<ProductsMenu />
+			<div className="container pt-1">
+				<ProductsMenu  />
 				<div data-aos="fade-up">
-					dfsfdsffsfs
 				</div>
 			</div>
     	);
