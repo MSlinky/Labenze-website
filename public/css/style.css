@@ -30,7 +30,7 @@ header *{
 	display: inline-block;
 	width: calc(100% - 220px);
 }
-.TemporaryDrawer-root-2{
+.TemporaryDrawer{
 	height: 64px;
 }
 .bodyPage{
@@ -156,7 +156,7 @@ header *{
 }
 
 @media( max-width: 500px){
-	.TemporaryDrawer-root-2 {
+	.TemporaryDrawer{
 	    height: 55px;
 	}
 	.owl-carousel.height .item div{
