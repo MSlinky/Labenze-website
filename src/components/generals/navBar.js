@@ -96,7 +96,7 @@ class TemporaryDrawer extends React.Component {
     );
 
     return (
-      <div className={classes.root}>
+      <div className={classes.root + ' TemporaryDrawer'}>
         <MuiThemeProvider theme={theme}>
           <AppBar position="fixed" color="secondary">
             <div className="container">

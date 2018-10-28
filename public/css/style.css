@@ -1,4 +1,4 @@
-html *{
+html body{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 body{
@@ -30,7 +30,7 @@ header *{
 	display: inline-block;
 	width: calc(100% - 220px);
 }
-.TemporaryDrawer-root-2{
+.TemporaryDrawer{
 	height: 64px;
 }
 .bodyPage{
@@ -156,7 +156,7 @@ header *{
 }
 
 @media( max-width: 500px){
-	.TemporaryDrawer-root-2 {
+	.TemporaryDrawer{
 	    height: 55px;
 	}
 	.owl-carousel.height .item div{
@@ -199,3 +199,193 @@ header *{
 .producto img{
 	width: 100%;
 }
+
+/*Expand Menu*/
+	.container-collapse{
+		border-bottom: solid gray 1px;
+		margin-bottom: 7px;
+	}
+	.products-menu > div:last-child .container-collapse{
+		border-bottom: none;
+		margin: 0;
+	}
+	.expand-menu{
+		width: 100%;;
+	}
+	.icon-menu {
+		margin: 0px auto 0px auto;
+		border-radius: 30px;
+		width: 30px;
+		height: calc(100% - 6px);
+	}
+	.icon-plus{
+		width: 10px;
+		height: 10px;
+		position: absolute;
+		right: 0;
+		margin-top: 10px;
+		margin-right: 0px;
+	}
+	.icon-plus .active-path{
+		fill: white;
+	}
+	.icon {
+		width: 100%;
+	}
+	.content-ProductsMenu{
+		position: -webkit-sticky;
+		position: sticky;
+		top: 90px;
+		border-radius: 10px;
+		max-height: calc(100vh - 100px);
+		overflow: auto;
+	}
+	.products-menu{
+		display: inline-block;
+		/*width: 200px;*/
+		background-color: #9f9fa2;
+		border-radius: 10px;
+		padding: 3px;
+		color: white;
+	}
+	.products-menu .products-menu{
+		width: 100%;
+	}
+	.products-menu ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.title-menu{
+		position: relative;
+	}
+	.pl-title-menu{
+		padding-left: 5px;
+	}
+	.listProduct li{
+		background-color: gray;
+		border-radius: 5px;
+		padding: 2px 10px;
+		margin: 3px 0;
+		transition: all .5s;
+		cursor: pointer;
+	}
+	.listProduct li:hover{
+		background-color: #5a5a5a;
+	}
+	.listProduct .checkbox{
+		width: 20px;
+		height: 20px;
+		margin: 3px 10px 3px 0;
+	}
+
+	.icon-menu.sillas{
+		background-color: #a81d50;
+	}
+	.chairSVG.sillas .circle{
+		fill: #a81d50;
+	}
+	.chairSVG.sillas .sombra{
+		fill: #a81d50;
+	}
+	.chairSVG.sillas .estructura{
+		fill: white;
+	}
+
+	.icon-menu.design{
+		background-color: #b5d8b1;
+	}
+	.chairSVG.design .circle{
+		fill: #b5d8b1;
+	}
+	.chairSVG.design .sombra{
+		fill: #b5d8b1;
+	}
+	.chairSVG.design .estructura{
+		fill: white;
+	}
+
+	.icon-menu.inOut{
+		background-color: #9ad6f0;
+	}
+	.chairSVG.inOut .circle{
+		fill: #9ad6f0;
+	}
+	.chairSVG.inOut .sombra{
+		fill: #9ad6f0;
+	}
+	.chairSVG.inOut .estructura{
+		fill: white;
+	}
+
+	.icon-menu.community{
+		background-color: #cfcdcc;
+	}
+	.chairSVG.community .circle{
+		fill: #cfcdcc;
+	}
+	.chairSVG.community .sombra{
+		fill: #cfcdcc;
+	}
+	.chairSVG.community .estructura{
+		fill: white;
+	}
+	.menuMobileLine{
+		position: fixed;
+    z-index: 10;
+    right: 0;
+    background-color: #aa194f;
+    color: white;
+    padding: 13px;
+		border-radius: 15px 0 0 15px;
+		box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 
+								0px 4px 5px 0px rgba(0, 0, 0, 0.14), 
+								0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+		cursor: pointer;
+	}
+	.menuMobileLinecontent > div:nth-child(2){
+		background-color: #757575;
+	}
+	.menuMobileLinecontent .products-menu{
+		border-radius: 0 !important;
+	}
+/*Expand Menu*/
+
+/*Card Product*/
+	@media (min-width: 480px) {
+		.cardProduct{
+			margin: 10px 10px;
+		}
+	}
+	.cardProduct .img-product{
+		height: 300px;
+		background-color: gray;
+	}
+	.cardProduct .info-product .name{
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px 0;
+		font-size: 1.3em;
+	}
+/*Card Product*/
+
+/* Global */
+	.hide{
+		display: none;
+	}
+	.cp {
+		cursor: pointer
+	}
+	.dp-inline-block{
+		display: inline-block;
+	}
+	.lh-1-9{
+		line-height: 1.9;
+	}
+	.pt-1{
+		padding-top: 1em;
+	}
+	.pl-1{
+		padding-left: 1em;
+	}
+/* Global*/

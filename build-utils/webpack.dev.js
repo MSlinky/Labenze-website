@@ -35,7 +35,7 @@ const config = {
   },
   plugins: [new webpack.HotModuleReplacementPlugin()],
   devServer: {
-    host: 'localhost',
+    host: '127.0.0.1',
     port: port,
     historyApiFallback: true,
     hot: true,

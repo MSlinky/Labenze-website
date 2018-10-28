@@ -72,33 +72,45 @@ class Slider extends React.Component {
 					<div data-aos="fade-up" data-aos-delay={randomShowItem(1, 3)}>
 						<div className="owl-carousel owl-theme"> 
 							<div className="item">
-								<img src="/public/img/main/slider/DESIGN1.png" />
+								<img src="/public/img/main/slider/comunity1.png" />
 							</div>
 							<div className="item">
-								<img src="/public/img/main/slider/DESIGN2.png" />
+								<img src="/public/img/main/slider/comunity2.png" />
 							</div>
 							<div className="item">
-								<img src="/public/img/main/slider/DESIGN3.png" />
+								<img src="/public/img/main/slider/comunity3.png" />
 							</div>
 							<div className="item">
-								<img src="/public/img/main/slider/DESIGN4.png" />
+								<img src="/public/img/main/slider/comunity4.png" />
 							</div>
+						</div>
+						<div className="title">
+							Community
+						</div>
+						<div className="info">
+							Propuestas de diseño que se adaptan y en algunos casos se anticipan a nuevos comportamientos, necesidades y, por qué no, a deseos del mercado. Productos multifacéticos, para uso en todo tipo de ambientes y espacios, generalmente de grandes audiencias, que obliga al uso de piezas resistentes, confortables y atractivas.
 						</div>
 					</div>
 					<div data-aos="fade-up" data-aos-delay={randomShowItem(1, 3)}>
 						<div className="owl-carousel owl-theme">
 							<div className="item">
-								<img src="./public/img/main/slider/CONFORT1.png" />
+								<img src="/public/img/main/slider/CONFORT1.png" />
 							</div>
 							<div className="item">
-								<img src="./public/img/main/slider/CONFORT2.png" />
+								<img src="/public/img/main/slider/CONFORT2.png" />
 							</div>
 							<div className="item">
-								<img src="./public/img/main/slider/CONFORT3.png" />
+								<img src="/public/img/main/slider/CONFORT3.png" />
 							</div>
 							<div className="item">
-								<img src="./public/img/main/slider/CONFORT4.png" />
+								<img src="/public/img/main/slider/CONFORT4.png" />
 							</div> 
+						</div>
+						<div className="title">
+							Confort
+						</div>
+						<div className="info">
+							Propuestas de diseño que se adaptan y en algunos casos se anticipan a nuevos comportamientos, necesidades y, por qué no, a deseos del mercado. Productos multifacéticos, para uso en todo tipo de ambientes y espacios, generalmente de grandes audiencias, que obliga al uso de piezas resistentes, confortables y atractivas.
 						</div>
 					</div>
 					<div data-aos="fade-up" data-aos-delay={randomShowItem(1, 3)}>
