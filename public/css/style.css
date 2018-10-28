@@ -1,4 +1,4 @@
-html *{
+html body{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 body{
@@ -200,7 +200,7 @@ header *{
 	width: 100%;
 }
 
-/**/
+/*Expand Menu*/
 	.container-collapse{
 		border-bottom: solid gray 1px;
 		margin-bottom: 7px;
@@ -231,6 +231,14 @@ header *{
 	}
 	.icon {
 		width: 100%;
+	}
+	.content-ProductsMenu{
+		position: -webkit-sticky;
+		position: sticky;
+		top: 90px;
+		border-radius: 10px;
+		max-height: calc(100vh - 100px);
+		overflow: auto;
 	}
 	.products-menu{
 		display: inline-block;
@@ -322,7 +330,44 @@ header *{
 	.chairSVG.community .estructura{
 		fill: white;
 	}
-/**/
+	.menuMobileLine{
+		position: fixed;
+    z-index: 10;
+    right: 0;
+    background-color: #aa194f;
+    color: white;
+    padding: 13px;
+		border-radius: 15px 0 0 15px;
+		box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 
+								0px 4px 5px 0px rgba(0, 0, 0, 0.14), 
+								0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+		cursor: pointer;
+	}
+	.menuMobileLinecontent > div:nth-child(2){
+		background-color: #757575;
+	}
+	.menuMobileLinecontent .products-menu{
+		border-radius: 0 !important;
+	}
+/*Expand Menu*/
+
+/*Card Product*/
+	@media (min-width: 480px) {
+		.cardProduct{
+			margin: 10px 10px;
+		}
+	}
+	.cardProduct .img-product{
+		height: 300px;
+		background-color: gray;
+	}
+	.cardProduct .info-product .name{
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px 0;
+		font-size: 1.3em;
+	}
+/*Card Product*/
 
 /* Global */
 	.hide{

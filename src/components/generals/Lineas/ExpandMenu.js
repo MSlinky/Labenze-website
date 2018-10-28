@@ -7,11 +7,7 @@ class ExpandMenu extends React.Component {
   constructor(props) {
     super(props);
   }
-
-  componentDidMount () {
-		console.log(this)
-	}
-
+  
   state = {
     checked: false,
   };
@@ -44,16 +40,16 @@ class ExpandMenu extends React.Component {
                   viewBox="0 0 512 512" 
                   width="30px" height="30px">
                   <g>
-                    <circle cx="256" cy="256" r="256" data-original="#FFA547" className="circle" data-old_color="#b5d8b1"/>
-                    <path d="M512,256c0-2.376-0.038-4.742-0.103-7.103L345,82L167,194l45.588,45.587L135,299.333l31.92,31.92  l-18.464,97.607l81.861,81.861C238.765,511.563,247.331,512,256,512C397.385,512,512,397.385,512,256z" data-original="#FF8940" className="sombra" data-old_color="#b5d8b1"/>
-                    <rect x="186.33" y="180.67" width="27.333" height="84" data-original="#8C6E63" className="estructura" data-old_color="#ffffff"/>
-                    <rect x="298.33" y="180.67" width="27.333" height="84" data-original="#6D4C41" className="estructura" data-old_color="#ffffff"/>
-                    <path d="M158.25,433L158.25,433c-7.548,0-13.667-6.119-13.667-13.667V285.667h27.333v133.667  C171.917,426.881,165.798,433,158.25,433z" data-original="#8C6E63" className="estructura" data-old_color="#ffffff"/>
-                    <path d="M353.75,433L353.75,433c-7.548,0-13.667-6.119-13.667-13.667V285.667h27.333v133.667  C367.417,426.881,361.298,433,353.75,433z" data-original="#6D4C41" className="estructura" data-old_color="#ffffff"/>
-                    <rect x="167" y="82" width="178" height="112" data-original="#5D4037" className="estructura" data-old_color="#ffffff"/>
-                    <rect x="255.95" y="82" width="89.05" height="112" data-original="#4E342E" className="estructura" data-old_color="#ffffff"/>
-                    <rect x="135" y="252.67" width="242" height="46.667" data-original="#5D4037" className="estructura" data-old_color="#ffffff"/>
-                    <rect x="255.95" y="252.67" width="121.05" height="46.667" data-original="#4E342E" className="estructura" data-old_color="#ffffff"/>
+                    <circle cx="256" cy="256" r="256" data-original="#FFA547" className="circle"/>
+                    <path d="M512,256c0-2.376-0.038-4.742-0.103-7.103L345,82L167,194l45.588,45.587L135,299.333l31.92,31.92  l-18.464,97.607l81.861,81.861C238.765,511.563,247.331,512,256,512C397.385,512,512,397.385,512,256z" data-original="#FF8940" className="sombra"/>
+                    <rect x="186.33" y="180.67" width="27.333" height="84" data-original="#8C6E63" className="estructura" />
+                    <rect x="298.33" y="180.67" width="27.333" height="84" data-original="#6D4C41" className="estructura" />
+                    <path d="M158.25,433L158.25,433c-7.548,0-13.667-6.119-13.667-13.667V285.667h27.333v133.667  C171.917,426.881,165.798,433,158.25,433z" data-original="#8C6E63" className="estructura" />
+                    <path d="M353.75,433L353.75,433c-7.548,0-13.667-6.119-13.667-13.667V285.667h27.333v133.667  C367.417,426.881,361.298,433,353.75,433z" data-original="#6D4C41" className="estructura" />
+                    <rect x="167" y="82" width="178" height="112" data-original="#5D4037" className="estructura"/>
+                    <rect x="255.95" y="82" width="89.05" height="112" data-original="#4E342E" className="estructura"/>
+                    <rect x="135" y="252.67" width="242" height="46.667" data-original="#5D4037" className="estructura"/>
+                    <rect x="255.95" y="252.67" width="121.05" height="46.667" data-original="#4E342E" className="estructura"/>
                   </g>
               </svg>
             </div>
